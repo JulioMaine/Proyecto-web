@@ -1,0 +1,69 @@
+﻿/*Navbar*/
+
+.FondoNavbar {
+    background-color: #103F79;
+    height: 65px;
+}
+
+.letraNavbar {
+    color: #F3B229;
+    font-size: 1.5rem;
+}
+
+/*Footer*/
+.FondoFooter {
+    background-color: #103F79;
+    height: 105px;
+    margin-top: 85px;
+}
+
+/*General*/
+
+.fondoBody {
+    background-color: #2D425B;
+}
+
+.letraAmarilla {
+    color: #F3B229;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.color-boton {
+    background-color: #103F79; 
+    color: #F3B229;
+    width: 100px;
+    height: 45px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.tamañoBoton {
+    height: 110px;
+    width: 200px;
+    background-color: #103F79;
+    color: #F3B229;
+    border-radius: 40px;
+    border-color: #F3B229;
+    border: 1px solid;
+}
+
+/*Medias query*/
+
+@media screen and (min-width:500px) {
+    .ancho {
+        max-width: 500px;
+        min-width: 200px
+    }
+}
+
